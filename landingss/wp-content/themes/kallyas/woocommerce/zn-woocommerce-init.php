@@ -372,6 +372,9 @@ function zn_woocommerce_before_main_content_75off(){
 		    color: #535353;
 		    background-color: #f5f5f5;
 		}
+		body #page_wrapper, body.boxed #page_wrapper {
+    		background-color: transparent !important;
+    	}
 	</style>
 	<section id="content" class="site-content shop_page">
 <form method="post" action="" id="checkout_form" name="downsell_form1" accept-charset="utf-8" enctype="application/x-www-form-urlencoded;charset=utf-8">

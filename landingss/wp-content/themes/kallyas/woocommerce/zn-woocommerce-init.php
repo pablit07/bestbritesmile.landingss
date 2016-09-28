@@ -408,6 +408,9 @@ function zn_woocommerce_before_main_content_75off(){
 		    margin-top: 10px;
 		    margin-bottom: 6px;
 		}
+		.ssHeadlineSize1 {
+		    font-size: 18px;
+		}
 	</style>
 	<section id="content" class="site-content shop_page">
 <form method="post" action="" id="checkout_form" name="downsell_form1" accept-charset="utf-8" enctype="application/x-www-form-urlencoded;charset=utf-8">

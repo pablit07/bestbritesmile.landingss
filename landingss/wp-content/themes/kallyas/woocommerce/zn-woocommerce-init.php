@@ -355,10 +355,13 @@ function zn_woocommerce_before_main_content_75off(){
 	<style type="text/css">
 		.product-type-simple { display: none; }
 		.elOrderProductOptinProductName { width: 100%; }
-		.elOrderProductOptinProductName label { font-size: 11px; }
+		.elOrderProductOptinProductName label { display: inline; }
 		.lv_checkout_header { display: none; }
 		#customer_details, #order_review_heading, #order_review {height: 0; overflow: hidden;}
 		#header {background: #f00; position: static;}
+		.elOrderProductOptinProducts label {
+		    font-weight: normal;
+		}
 	</style>
 	<section id="content" class="site-content shop_page">
 <form method="post" action="" id="checkout_form" name="downsell_form1" accept-charset="utf-8" enctype="application/x-www-form-urlencoded;charset=utf-8">

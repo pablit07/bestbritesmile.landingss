@@ -400,6 +400,14 @@ function zn_woocommerce_before_main_content_75off(){
 		.elFeatureImage_80_20 .elScreenshot_text {
 		    width: 85%;
 		}
+		.ne.elScreenshot_text_headline.ssHeadlineSize1 {
+		    color: #d44e6e;
+		}
+		.elScreenshot_text_headline {
+		    padding: 0px;
+		    margin-top: 10px;
+		    margin-bottom: 6px;
+		}
 	</style>
 	<section id="content" class="site-content shop_page">
 <form method="post" action="" id="checkout_form" name="downsell_form1" accept-charset="utf-8" enctype="application/x-www-form-urlencoded;charset=utf-8">

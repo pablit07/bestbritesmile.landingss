@@ -282,6 +282,23 @@ add_action( 'woocommerce_after_main_content', 'zn_woocommerce_after_main_content
 
 function zn_woocommerce_before_main_content_75off(){
 
+	// Set the product ID to remove
+    $prod_to_remove = 2300;
+
+    // Cycle through each product in the cart
+    foreach( WC()->cart->cart_contents as $prod_in_cart ) {
+        // Get the Variation or Product ID
+        $prod_id = ( isset( $prod_in_cart['variation_id'] ) && $prod_in_cart['variation_id'] != 0 ) ? $prod_in_cart['variation_id'] : $prod_in_cart['product_id'];
+
+        // Check to see if IDs match
+        if( $prod_to_remove == $prod_id ) {
+            // Get it's unique ID within the Cart
+            $prod_unique_id = WC()->cart->generate_cart_id( $prod_id );
+            // Remove it from the cart by un-setting it
+            unset( WC()->cart->cart_contents[$prod_unique_id] );
+        }
+    }
+
 	$args = array();
 	if( ! is_single() ){
 
@@ -336,11 +353,14 @@ function zn_woocommerce_before_main_content_75off(){
 
 	?>
 	<style type="text/css">
-		
 		.product-type-simple { display: none; }
+		.elOrderProductOptinProductName { width: 100%; }
+		.lv_checkout_header { display: none; }
+		#customer_details, #order_review_heading, #order_review {height: 0; overflow: hidden;}
+		#header {background: #f00;}
 	</style>
 	<section id="content" class="site-content shop_page">
-<form method="post" action="flashlight-combo.php" id="checkout_form" name="downsell_form1" accept-charset="utf-8" enctype="application/x-www-form-urlencoded;charset=utf-8">
+<form method="post" action="" id="checkout_form" name="downsell_form1" accept-charset="utf-8" enctype="application/x-www-form-urlencoded;charset=utf-8">
             <input type="hidden" name="limelight_charset" id="limelight_charset" value="utf-8" />
         <div class="containerWrapper">
     
@@ -510,15 +530,15 @@ function zn_woocommerce_before_main_content_75off(){
     
 <div class="clearfix elOrderProductOptinProducts" data-cf-product-template="true">
     <div class="pull-left elOrderProductOptinProductName">
-        <input id="lbl-011" class="click_radio checkbox123" data-name="Buy 2 Best Brite Smile Teeth Whitener, GET 1 FREE! (Total $149)" name="purchase[product_id]" data-val="2264" data-price="149.00" data-qty="3" value="256511" type="radio">
+        <input id="lbl-011" class="click_radio checkbox123" data-name="Buy 2 Best Brite Smile Teeth Whitener, GET 1 FREE! (Total $149)" name="product_quantity" data-val="2264" data-price="149.00" data-qty="3" value="3" type="radio" checked="checked">
         <div class="pull-right elOrderProductOptinPrice" data-cf-product-price="true" taxamo-currency="USD"><b>$49/ea</b></div>
-        <label for="lbl-01" data-cf-product-name="true"><b>Buy 2 Best Brite Smile Teeth Whitener, GET 1 FREE!  </b> (Total $149)</label>
+        <label for="lbl-01" data-cf-product-name="true"><b>Buy 2 Best Brite Smile Teeth Whiteners, GET 1 FREE!  </b> (Total $149)</label>
     </div>
 </div>
     
 <div class="clearfix elOrderProductOptinProducts" data-cf-product-template="true">
     <div class="pull-left elOrderProductOptinProductName">
-        <input id="lbl-011" class="click_radio" data-name="Buy 1 Best Brite Smile Teeth Whitener, GET ONE 75% OFF! " name="purchase[product_id]" data-val="2263" data-price="119.00" data-qty="2" value="256511" type="radio">
+        <input id="lbl-011" class="click_radio" data-name="Buy 1 Best Brite Smile Teeth Whitener, GET ONE 75% OFF! " name="product_quantity" data-val="2263" data-price="119.00" data-qty="2" value="2" type="radio">
         <div class="pull-right elOrderProductOptinPrice" data-cf-product-price="true" taxamo-currency="USD"><b>$59/ea</b></div>
         <label for="lbl-01" data-cf-product-name="true">Buy 1 Best Brite Smile Teeth Whitener, GET ONE 75% OFF! (Total $119)</label>
     </div>
@@ -526,7 +546,7 @@ function zn_woocommerce_before_main_content_75off(){
 
 <div class="clearfix elOrderProductOptinProducts" data-cf-product-template="true">
     <div class="pull-left elOrderProductOptinProductName">
-        <input id="lbl-011" class="click_radio" data-name="Buy 1 Best Brite Smile Teeth Whitener Set" name="purchase[product_id]" data-val="2259" data-qty="1" data-price="69.00" value="256511" type="radio">
+        <input id="lbl-011" class="click_radio" data-name="Buy 1 Best Brite Smile Teeth Whitener Set" name="product_quantity" data-val="2259" data-qty="1" data-price="69.00" value="1" type="radio">
         <div class="pull-right elOrderProductOptinPrice" data-cf-product-price="true" taxamo-currency="USD">$69</div>
         <label for="lbl-01" data-cf-product-name="true">Buy 1 Best Brite Smile Teeth Whitener Set ($69.00 per unit)</label>
     </div>
@@ -534,27 +554,27 @@ function zn_woocommerce_before_main_content_75off(){
     
 <div class="clearfix elOrderProductOptinProducts" data-cf-product-template="true">
     <div class="pull-left elOrderProductOptinProductName">
-        <input id="lbl-011" class="click_radio" data-name="Buy 4 Best Brite Smile Teeth Whitener" name="purchase[product_id]" data-val="2260" data-qty="4" data-price="189.00" value="256511" type="radio">
+        <input id="lbl-011" class="click_radio" data-name="Buy 4 Best Brite Smile Teeth Whitener" name="product_quantity" data-val="2260" data-qty="4" data-price="189.00" value="4" type="radio">
         <div class="pull-right elOrderProductOptinPrice" data-cf-product-price="true" taxamo-currency="USD">$189</div>
-        <label for="lbl-01" data-cf-product-name="true">4 Best Brite Smile Brushes - ($47.25/ea)</label>
+        <label for="lbl-01" data-cf-product-name="true">Buy 4 Best Brite Smile Teeth Whitener Sets - ($47.25/ea)</label>
     </div>
 </div>
     
     
 <div class="clearfix elOrderProductOptinProducts" data-cf-product-template="true">
     <div class="pull-left elOrderProductOptinProductName">
-        <input id="lbl-011" class="click_radio" data-name="5 Best Brite Smile Brushes" name="purchase[product_id]" data-val="2261" data-qty="5" value="256511" data-price="195.00" type="radio">
+        <input id="lbl-011" class="click_radio" data-name="5 Best Brite Smile Brushes" name="product_quantity" data-val="2261" data-qty="5" value="5" data-price="195.00" type="radio">
         <div class="pull-right elOrderProductOptinPrice" data-cf-product-price="true" taxamo-currency="USD">$195</div>
-        <label for="lbl-01" data-cf-product-name="true">5 Best Brite Smile Brushes - ($39/ea)</label>
+        <label for="lbl-01" data-cf-product-name="true">Buy 5 Best Brite Smile Teeth Whitener Sets - ($39/ea)</label>
     </div>
 </div>
     
     
 <div class="clearfix elOrderProductOptinProducts" data-cf-product-template="true">
     <div class="pull-left elOrderProductOptinProductName">
-        <input id="lbl-011" class="click_radio" data-name="10 Best Brite Smile Brushes" name="purchase[product_id]" data-val="2262" data-qty="10" value="256511" data-price="350.00" type="radio">
+        <input id="lbl-011" class="click_radio" data-name="10 Best Brite Smile Brushes" name="product_quantity" data-val="2262" data-qty="10" value="6" data-price="350.00" type="radio">
         <div class="pull-right elOrderProductOptinPrice" data-cf-product-price="true" taxamo-currency="USD">$350</div>
-        <label for="lbl-01" data-cf-product-name="true">10 Best Brite Smile Brushes - ($35/ea)</label>
+        <label for="lbl-01" data-cf-product-name="true">Buy 6 Best Brite Smile Teeth Whitener Sets - ($35/ea)</label>
     </div>
 </div>
 
@@ -690,7 +710,7 @@ function zn_woocommerce_before_main_content_75off(){
 
 </div>
 <div type="state" class="de elInputWrapper de-input-block elAlign_center elMargin0 de-editable" id="input-70339" data-de-type="input" data-de-editing="false" data-title="input form" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 10px; display: block; outline: medium none; cursor: pointer;">
-<input type="text" name="shippingState" placeholder="Your State" class="required elInputBR5 elInputStyle1" data-error-message="Please select your state!" readonly />
+<select name="shippingState" id="shippingState" class="state_select " placeholder=""><option value="">Select an option…</option><option value="AL">Alabama</option><option value="AK">Alaska</option><option value="AZ">Arizona</option><option value="AR">Arkansas</option><option value="CA">California</option><option value="CO">Colorado</option><option value="CT">Connecticut</option><option value="DE">Delaware</option><option value="DC">District Of Columbia</option><option value="FL">Florida</option><option value="GA">Georgia</option><option value="HI">Hawaii</option><option value="ID">Idaho</option><option value="IL">Illinois</option><option value="IN">Indiana</option><option value="IA">Iowa</option><option value="KS">Kansas</option><option value="KY">Kentucky</option><option value="LA">Louisiana</option><option value="ME">Maine</option><option value="MD">Maryland</option><option value="MA">Massachusetts</option><option value="MI">Michigan</option><option value="MN">Minnesota</option><option value="MS">Mississippi</option><option value="MO">Missouri</option><option value="MT">Montana</option><option value="NE">Nebraska</option><option value="NV">Nevada</option><option value="NH">New Hampshire</option><option value="NJ">New Jersey</option><option value="NM">New Mexico</option><option value="NY">New York</option><option value="NC">North Carolina</option><option value="ND">North Dakota</option><option value="OH">Ohio</option><option value="OK">Oklahoma</option><option value="OR">Oregon</option><option value="PA">Pennsylvania</option><option value="RI">Rhode Island</option><option value="SC">South Carolina</option><option value="SD">South Dakota</option><option value="TN">Tennessee</option><option value="TX">Texas</option><option value="UT">Utah</option><option value="VT">Vermont</option><option value="VA">Virginia</option><option value="WA">Washington</option><option value="WV">West Virginia</option><option value="WI">Wisconsin</option><option value="WY">Wyoming</option><option value="AA">Armed Forces (AA)</option><option value="AE">Armed Forces (AE)</option><option value="AP">Armed Forces (AP)</option><option value="AS">American Samoa</option><option value="GU">Guam</option><option value="MP">Northern Mariana Islands</option><option value="PR">Puerto Rico</option><option value="UM">US Minor Outlying Islands</option><option value="VI">US Virgin Islands</option></select>
 <select name="shippingCountry" style="display:none;" class="required" data-selected="US" data-error-message="Please select your country!">
                     <option value="">Select Country</option>
                 </select>
@@ -725,16 +745,7 @@ function zn_woocommerce_before_main_content_75off(){
 </div>
 
 <div class="elCreditCardForm">
-<div class="ccNumberWrap" style="width: 100%;margin-bottom: 10px;">
-<div class="ccCardText ccInputText">Credit Card Type:</div>
-<select name="creditCardType" class="required no-error" onchange="javascript:toggleCardType(this.value);" data-deselect="false" data-error-message="Please select valid card type!">
-                                        <option value="">Card Type</option>
-                                        <option value="visa">Visa</option>
-                                        <option value="master">Master Card</option>
-                                        <option value="amex">American Express</option>
-                                        <option value="discover">Discover</option>
-                                                       </select>
-</div>
+
 <div class="ccNumberWrap">
 <div class="ccCardText ccInputText">Credit Card Number:</div>
 <input type="tel" name="creditCardNumber" class="required cc-number elInputStyl0 elInputSmall ccInput" maxlength="16" data-error-message="Please enter a valid credit card number!" onkeyup="javascript: this.value = this.value.replace(/[^0-9]/g,'');" />
@@ -772,13 +783,12 @@ function zn_woocommerce_before_main_content_75off(){
 </div>
 </div>
 <div style="padding:20px; background-color: #fff; margin-top: 20px" class="radius10">
-<div class="de elBTN elAlign_center elMargin0 de-editable" id="tmp_button-31077" data-de-type="button" data-de-editing="false" data-title="button" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 20px; outline: medium none; cursor: pointer;">
+<div class="de elBTN elAlign_center elMargin0 de-editable" id="tmp_button-31077" data-de-type="button" data-de-editing="false" data-title="button" data-ce="false" data-trigger="none" data-animate="fade" data-delay="500" style="outline: medium none; cursor: pointer;">
 <!--<a href="javascript:void(0);" onclick="$('#checkout_form').submit();" class="elButton elButtonSubtle elButtonSize1 elButtonColor1 elButtonFull" style="color: rgb(255, 255, 255); background-color: rgb(27, 191, 0);">
 <span class="elButtonMain">YES! Ship Me My Shadowhawk Flashlight</span>
 <span class="elButtonSub"></span>
 </a>-->
-<input type="submit" id="new-bott-new" class="elButton elButtonSubtle elButtonSize1 elButtonColor1 elButtonFull" value="YES! Ship Me My Best Brite Smile Teeth Whitener"  style="color: rgb(255, 255, 255); ">
-
+<input type="submit" id="new-bott-new" class="elButton elButtonSubtle elButtonSize1 elButtonColor1 elButtonFull" value="YES! Ship Me My Best Brite Smile Teeth Whitener"  style="color: rgb(255, 255, 255); background-image: url(https://landingss.bestbritesmile.com/wp-content/uploads/2016/09/Smile-Teeth-Whitener.png); width: 300px;">
 
 
 </div>
@@ -850,6 +860,28 @@ function zn_woocommerce_after_main_content_75off(){
 				<?php get_sidebar(); ?>
 
 	</section>
+	<script type="text/javascript">
+		jQuery('#new-bott-new').closest('form').submit(function(e) {
+			e.preventDefault();
+			e.stopPropagation();
+			jQuery('#billing_first_name').val(jQuery('#checkout_form')[0]['firstName'].value);
+			jQuery('#billing_last_name').val(jQuery('#checkout_form')[0]['lastName'].value);
+			jQuery('#billing_email').val(jQuery('#checkout_form')[0]['email'].value);
+			jQuery('#billing_phone').val(jQuery('#checkout_form')[0]['phone'].value);
+			jQuery('#billing_address_1').val(jQuery('#checkout_form')[0]['shippingAddress1'].value);
+			jQuery('#billing_city').val(jQuery('#checkout_form')[0]['shippingCity'].value);
+			jQuery('#billing_state').val(jQuery('#checkout_form')[0]['shippingState'].value);
+			jQuery('#billing_postcode').val(jQuery('#checkout_form')[0]['shippingZip'].value);
+			jQuery('#authorizenet-card-number').val(jQuery('#checkout_form')[0]['creditCardNumber'].value);
+			jQuery('#authorizenet-card-expiry').val(
+				jQuery('#checkout_form')[0]['expmonth'].value + '/' + jQuery('#checkout_form')[0]['expyear'].value
+			);
+			jQuery('#authorizenet-card-cvc').val(jQuery('#checkout_form')[0]['CVV'].value);
+			jQuery('.qty').val(jQuery('#checkout_form')[0]['product_quantity'].value);
+			jQuery('#terms').click();
+			jQuery('#place_order').closest('form').submit();
+		});
+	</script>
 	<?php
 }
 

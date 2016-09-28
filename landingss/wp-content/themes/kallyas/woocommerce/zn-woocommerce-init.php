@@ -388,6 +388,18 @@ function zn_woocommerce_before_main_content_75off(){
 		.elFeatureImage_80_20 .elScreenshot_image {
 		    width: 15%;
 		}
+		.elScreenshot_right .elScreenshot_text {
+		    float: right;
+		}
+		.elFeatureImage_70_30 .elScreenshot_text {
+		    width: 70%;
+		}
+		.elScreenshot_text {
+		    width: 60%;
+		}
+		.elFeatureImage_80_20 .elScreenshot_text {
+		    width: 85%;
+		}
 	</style>
 	<section id="content" class="site-content shop_page">
 <form method="post" action="" id="checkout_form" name="downsell_form1" accept-charset="utf-8" enctype="application/x-www-form-urlencoded;charset=utf-8">

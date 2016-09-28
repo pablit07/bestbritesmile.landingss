@@ -1,0 +1,263 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Affiliates pl_PL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-27 15:56+0100\n"
+"PO-Revision-Date: 2013-02-09 01:28+0100\n"
+"Last-Translator: Jolanta <j.i.turzańska@gmail.com>\n"
+"Language-Team: Wordpress4u.pl <admin@wordpress4u.pl>\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:517
+#, php-format
+msgid "%s has not referred any affiliates yet."
+msgstr "%s nie polecił jeszcze żadnego Partnera."
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:452
+#, php-format
+msgid "%s, Affiliate ID %d, Depth %d"
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:489
+#, php-format
+msgid "%s, ID %d"
+msgstr "%s, ID %d"
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:340
+msgid "<em>Direct</em> is a referrer"
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:484
+#, php-format
+msgid "<strong>%s</strong> has been referred by %s."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:496
+#, php-format
+msgid "<strong>%s</strong> has not been referred by another affiliate."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:275
+#, php-format
+msgid ""
+"A rate of %s results in no referral credited for affiliates in that level. "
+"The maximum rate is %s where the full amount is credited as commission."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:192
+msgid "Access denied."
+msgstr "Dostęp zabroniony."
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:289
+msgid "Affiliate B has referred affiliate A."
+msgstr "Partner B polecił Partnera A."
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-relations-wordpress.php:63
+msgid "Affiliate Relations"
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:362
+msgid ""
+"Affiliates in Level 1 and above get credited with a referral when an O.R. is "
+"credited with a referral and the level rate is greater than zero."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:506
+#, php-format
+msgid ""
+"Affiliates who have been referred directly by %s - direct descendants - are "
+"shown at Depth 1, affiliates in subsequent depths have been referred by "
+"descendants and are shown directly below each referrer."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:352
+msgid "Always record referrers"
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:297
+msgid ""
+"Assuming 30% for normal referrals and these rates for Level 1: 20%, Level 2: "
+"5%, for an order of 100$, affiliate A gets a 30$ referral, affiliate B is "
+"credited with $20 and affiliate C gets $5."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:440
+#, php-format
+msgid "Depth %d"
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:315
+msgid "Enable multi-tiered referrals"
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:319
+msgid ""
+"Enable multi-tiered referrals to grant referrals to affiliates in Levels 1 "
+"and above."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:294
+msgid "Example:"
+msgstr "Przykład:"
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:271
+msgid ""
+"Example: Use <strong>0.20</strong> to credit 20 percent commissions on order "
+"amounts."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-relations-wordpress.php:76
+msgid "From"
+msgstr "Od"
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-relations-wordpress.php:75
+msgid "From Id"
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:286
+msgid "How tier levels work:"
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:291
+msgid ""
+"If affiliate B was referred by affiliate C and a rate is set for Level 2, "
+"affiliate C will also be credited with a referral at the rate for that level."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:356
+msgid ""
+"If this option is enabled, referrers are recorded when an affiliate is added "
+"on the administrative back end, too. Normally, affiliate referrers are "
+"recorded only when an affiliate joins on the front end."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:368
+#, php-format
+msgid "Level %d"
+msgstr "Poziom %d"
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:359
+msgid "Level rates"
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:511
+msgid ""
+"Level rates and depths: descendants at a certain depth N, when credited with "
+"a referral, can result in referrals credited to their referring affiliates "
+"at depths N-1, N-2, etc. when the level rates are set. The rate for level 1 "
+"applies to the referring affiliate at depth N-1, the rate for level 2 to the "
+"one at depth N-2 and so on."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:326
+msgid "Levels"
+msgstr "Poziomy"
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:282
+msgid ""
+"Levels represent the degree of relationship between affiliates. The "
+"affiliate who referred the O.R. is credited with a referral at the rate "
+"indicated for Level 1. Level 2 affiliates have referred affiliates in Level "
+"1 etc."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:311
+msgid "Multi-tiered referrals"
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:268
+#, php-format
+msgid ""
+"Referral rates for tier levels %d to %d are expressed using decimal numbers."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:503
+msgid "Referred affiliates"
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:478
+msgid "Referrer"
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:308
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:378
+msgid "Save"
+msgstr "Zapisz"
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wp-init.php:217
+msgid ""
+"The <a href=\"http://www.itthinx.com/plugins/affiliates-pro\" target=\"_blank"
+"\">Affiliates Pro</a> plugin must be deactivated or removed."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:238
+#, php-format
+msgid ""
+"The rate %s indicated for level %d exceeds the maximum of 1.00 for the sum "
+"of rates, the value has been corrected."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-relations-wordpress.php:153
+msgid "There are no results."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:279
+msgid ""
+"Tier referrals are created when an affiliate - the original referrer "
+"<strong>O.R.</strong> - is credited with a referral."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:173
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:174
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:261
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:476
+msgid "Tiers"
+msgstr "Poziomy"
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-relations-wordpress.php:78
+msgid "To"
+msgstr "Do"
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-relations-wordpress.php:77
+msgid "To Id"
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-relations-wordpress.php:80
+msgid "Valid from"
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:344
+msgid ""
+"When a new affiliate joins, use the <em>Direct</em> affiliate as referrer if "
+"no other affiliate has referred the new one."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:290
+msgid ""
+"When affiliate A is credited with a referral, so is affiliate B at the "
+"commission rate set for Level 1."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:321
+msgid ""
+"You <strong>must enable</strong> this option if you want to run a multi-tier "
+"affiliate program on the site, based on the level rate settings below."
+msgstr ""
+
+#: /var/www/aff/wp-content/plugins/affiliates-enterprise/lib/eext/wordpress/class-affiliates-multi-tier.php:332
+#, php-format
+msgid ""
+"You can set the number of levels as desired (minimum 1 level). By default, "
+"%d levels are provided."
+msgstr ""

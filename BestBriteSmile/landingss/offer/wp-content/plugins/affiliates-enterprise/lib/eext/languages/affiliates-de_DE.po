@@ -1,0 +1,587 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Affiliates Enterprise German\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-11 12:38+0200\n"
+"PO-Revision-Date: 2015-10-21 20:25+0200\n"
+"Last-Translator: itthinx.com <EMAIL@ADDRESS>\n"
+"Language-Team: itthinx.com <LL@li.org>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.5\n"
+
+#: lib/eext/includes/class-affiliates-enterprise-shortcodes.php:339
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:101
+#, php-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: lib/eext/includes/class-affiliates-enterprise-shortcodes.php:251
+#, php-format
+msgid "%s %s"
+msgstr "%s %s"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:767
+#, php-format
+msgid "%s (general level %d rate)"
+msgstr "%s (allgemeine Rate Level %d)"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:663
+#, php-format
+msgid "%s has not referred any affiliates yet."
+msgstr "%s hat bisher noch keine Partner empfohlen."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:526
+#, php-format
+msgid "%s, Affiliate ID %d, Depth %d"
+msgstr "%s, Partner ID %d, Tiefe %d"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:636
+#, php-format
+msgid "%s, ID %d"
+msgstr "%s, ID %d"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:605
+msgid "---"
+msgstr "---"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:399
+msgid "<em>Direct</em> is a referrer"
+msgstr "<em>Direkt</em> ist Übermittler"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:631
+#, php-format
+msgid "<strong>%s</strong> has been referred by %s."
+msgstr "<strong>%s</strong> wurde durch %s übermittelt."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:643
+#, php-format
+msgid "<strong>%s</strong> has not been referred by another affiliate."
+msgstr "<strong>%s</strong> wurde durch keinen anderen Partner übermittelt."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:334
+#, php-format
+msgid ""
+"A rate of %s results in no referral credited for affiliates in that level. "
+"The maximum rate is %s where the full amount is credited as commission."
+msgstr ""
+"Eine Rate von %s resultiert in keine Transaktionen für Partner auf dieser "
+"Ebene. Die maximale Rate is %s wobei der volle Betrag dem Partner als "
+"Provision zugesprochen wird."
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:360
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:392
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:531
+#: lib/eext/wordpress/class-affiliates-campaigns-wordpress.php:86
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:224
+msgid "Access denied."
+msgstr "Zugriff verweigert."
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:174
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:566
+msgid "Affiliate"
+msgstr "Partner"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:348
+msgid "Affiliate B has referred affiliate A."
+msgstr "Partner B hat Partner A übermittelt."
+
+#: lib/eext/wordpress/class-affiliates-relations-wordpress.php:63
+msgid "Affiliate Relations"
+msgstr "Partnerbeziehungen"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:421
+msgid ""
+"Affiliates in Level 1 and above get credited with a referral when an O.R. is "
+"credited with a referral and the level rate is greater than zero."
+msgstr ""
+"Partnern in Ebene 1 and darüber werden Transaktionen zugesprochen wenn einem "
+"U.P. eine Transaktion zugesprochen wird und die Ebenenrate größer als 0 ist."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:652
+#, php-format
+msgid ""
+"Affiliates who have been referred directly by %s - direct descendants - are "
+"shown at Depth 1, affiliates in subsequent depths have been referred by "
+"descendants and are shown directly below each referrer."
+msgstr ""
+"Partner die direkt durch %s übermittelt wurden - direkte Nachfahren - werden "
+"in Tiefe 1 angezeigt, Partner in untergeordneten Tiefen wurden durch "
+"Nachfahren übermittelt und direkt unter dem jeweiligen Übermittler angezeigt."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:312
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:728
+msgid ""
+"Although this might be intended, the total commission granted should normally "
+"not exceed the net transaction value on which commissions are based."
+msgstr ""
+"Obwohl dies in manchen Fällen gewünscht sein mag, sollte normalerweise die "
+"Summe der Kommissionsbeträge den Nettobetrag der Basistransaktion nicht "
+"überschreiten."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:411
+msgid "Always record referrers"
+msgstr "Übermittler immer aufzeichnen"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:315
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:731
+msgid ""
+"As relative level rates apply, these rates are relative to the amount that is "
+"credited to the O.R. instead of the order amount. Note that a sum of level "
+"rates equal to or greater than 1.00 means that the total commissions credited "
+"to tiers, is equal to - or higher than - the commission granted to the O.R."
+msgstr ""
+"Wo relative Raten angewendet werden, sind diese Raten relativ zum Betrag der "
+"dem U.P. zugesprochen wird, also nicht relativ zum Auftragsbetrag. Zu "
+"beachten ist, dass eine Summe von Ebenenraten die größer oder gleich 1.00 ist "
+"bedeutet, dass der Gesamtbetrag der Kommissionen die den Stufen zugesprochen "
+"wird, größer oder gleich dem Kommissionsbetrag ist der dem U.P. zugesprochen "
+"wurde."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:356
+msgid ""
+"Assuming 30% for normal referrals and these rates for Level 1: 20%, Level 2: "
+"5%, for an order of 100$, affiliate A gets a 30$ referral, affiliate B is "
+"credited with $20 and affiliate C gets $5."
+msgstr ""
+"Angenommen 30% für normale Transaktionen und folgende Raten für Ebene 1: 20%, "
+"Ebene 2: 5%, bei einem Auftrag von 100$ bekommt Partner A 30$ zugesprochen, "
+"Partner B 20$ und Partner C bekommt 5$."
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:356
+msgid "Campaign could not be created."
+msgstr "Die Kampagne konnte nicht erstellt werden."
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:388
+msgid "Campaign could not be updated."
+msgstr "Die Kampagne konnte nicht aktualisiert werden."
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:352
+msgid "Campaign created."
+msgstr "Kampagne erstellt."
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:384
+msgid "Campaign updated."
+msgstr "Kampagne aktualisiert."
+
+#: lib/eext/wordpress/class-affiliates-campaigns-wordpress.php:49
+#: lib/eext/wordpress/class-affiliates-campaigns-wordpress.php:50
+msgid "Campaigns"
+msgstr "Kampagnen"
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:615
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:613
+msgid "Cancel this action"
+msgstr "Diese Aktion abbrechen"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:779
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:781
+msgid "Click to set the level rates."
+msgstr "Klicken um Ebenenraten zu setzen."
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:519
+msgid "Create"
+msgstr "Erstellen"
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:487
+msgid "Create Campaign"
+msgstr "Kampagne erstellen"
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:451
+msgid "Create a Campaign"
+msgstr "Eine Kampagne erstellen"
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:439
+msgid "Create a new campaign"
+msgstr "Eine neue Kampagne erstellen"
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:215
+msgid "Delete"
+msgstr "Löschen"
+
+#: lib/eext/includes/class-affiliates-enterprise-shortcodes.php:51
+#: lib/eext/includes/class-affiliates-enterprise-shortcodes.php:115
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:514
+#, php-format
+msgid "Depth %d"
+msgstr "Tiefe %d"
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:176
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:511
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:582
+msgid "Description"
+msgstr "Beschreibung"
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:130
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:557
+msgid "Edit Campaign"
+msgstr "Kampagne bearbeiten"
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:118
+msgid "Edit this campaign"
+msgstr "Diese Kampagne bearbeiten"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:775
+msgid ""
+"Empty fields do not override the general level rate, while specifying 0 "
+"effectively voids the rate for this affiliate at that level."
+msgstr ""
+"Leere Felder heben die allgemeine Ebenenrate nicht auf, die Angabe 0 macht "
+"die Rate nichtig für den Partner auf dieser Ebene."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:374
+msgid "Enable multi-tiered referrals"
+msgstr "Gestaffelte Transaktionen aktivieren"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:378
+msgid ""
+"Enable multi-tiered referrals to grant referrals to affiliates in Levels 1 "
+"and above."
+msgstr ""
+"Gestaffelte Transaktionen aktivieren um solche Partnern in Ebenen 1 und "
+"darüber zuzusprechen."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:353
+msgid "Example:"
+msgstr "Beispiel:"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:446
+msgid ""
+"Example: Assuming 30% for normal referrals and 20% for Level 1, for an order "
+"of 100$, affiliate A gets a 30$ referral, affiliate B gets 6$ (20% of 30$)."
+msgstr ""
+"Beispiel: Angenommen 30% für normale Transaktionen und 20% für Ebene 1, bei "
+"einem Auftrag von 100$ bekommt Partner A 30$ zugesprochen, Partner B 6$ (20% "
+"von 30$)."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:330
+msgid ""
+"Example: Use <strong>0.20</strong> to credit 20 percent commissions on order "
+"amounts."
+msgstr ""
+"Beispiel: Verwenden Sie <strong>0.20</strong> für 20 Prozent Kommissionen auf "
+"Auftragsbeträge."
+
+#: lib/eext/wordpress/class-affiliates-relations-wordpress.php:76
+msgid "From"
+msgstr "Von"
+
+#: lib/eext/wordpress/class-affiliates-relations-wordpress.php:75
+msgid "From Id"
+msgstr "Von Id"
+
+#: lib/eext/includes/class-affiliates-enterprise-shortcodes.php:322
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:181
+msgid "Hits"
+msgstr "Treffer"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:345
+msgid "How tier levels work:"
+msgstr "Wie Staffelebenen funktionieren:"
+
+#: lib/eext/includes/class-affiliates-enterprise-shortcodes.php:320
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:173
+msgid "ID"
+msgstr "ID"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:773
+msgid ""
+"If a level rate is set here, it will override the general level rate that "
+"applies."
+msgstr ""
+"Wird hier eine Ebenenrate gesetzt so hat diese Vorrang über die allgemeine "
+"Rate."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:350
+msgid ""
+"If affiliate B was referred by affiliate C and a rate is set for Level 2, "
+"affiliate C will also be credited with a referral at the rate for that level."
+msgstr ""
+"Wurde Partner B durch Partner C übermittelt und eine Rate ist für Ebene 2 "
+"gesetzt, dann wird Partner C auch eine Transaktion zugesprochen unter "
+"Verwendung der entsprechenden Rate für diese Ebene."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:415
+msgid ""
+"If this option is enabled, referrers are recorded when an affiliate is added "
+"on the administrative back end, too. Normally, affiliate referrers are "
+"recorded only when an affiliate joins on the front end."
+msgstr ""
+"Ist diese Option aktiviert, dann werden Transaktionen aufgezeichnet auch wenn "
+"ein Partner im Verwaltungsbereich hinzugefügt wurde. Normalerweise werden "
+"Übermittler nur aufgezeichnet wenn ein Partner sich im öffentlichen Bereich "
+"registriert."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:444
+msgid ""
+"If this option is enabled, the level rates are relative to the amount that is "
+"credited to the O.R. instead of the order amount."
+msgstr ""
+"Ist diese Option aktiviert, dann sind Ebenenraten relativ zum Betrag der dem "
+"U.P. zugesprochen wird anstatt relativ zum Auftragsbetrag zu sein."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:429
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:761
+#, php-format
+msgid "Level %d"
+msgstr "Ebene %d"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:418
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:738
+msgid "Level rates"
+msgstr "Ebenenraten"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:657
+msgid ""
+"Level rates and depths: descendants at a certain depth N, when credited with "
+"a referral, can result in referrals credited to their referring affiliates at "
+"depths N-1, N-2, etc. when the level rates are set. The rate for level 1 "
+"applies to the referring affiliate at depth N-1, the rate for level 2 to the "
+"one at depth N-2 and so on."
+msgstr ""
+"Ebenenraten und Tiefen: Nachfahren in einer bestimmten Tiefe N, können "
+"Transaktionen erbringen die den entsprechenden Partnern in Tiefen N-1, N-2 "
+"usw. zugesprochen werden. Die Rate zur Ebene 1 wird beim Partner auf Tiefe "
+"N-1 angewandt, die Rate für Ebene 2 wird beim Partner auf Tiefe N-2 verwendet "
+"usw."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:440
+msgid "Level rates are relative"
+msgstr "Ebenenraten sind relativ"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:385
+msgid "Levels"
+msgstr "Ebenen"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:341
+msgid ""
+"Levels represent the degree of relationship between affiliates. The affiliate "
+"who referred the O.R. is credited with a referral at the rate indicated for "
+"Level 1. Level 2 affiliates have referred affiliates in Level 1 etc."
+msgstr ""
+"Ebenen stellen den Grad der Verwandtschaft zwischen Partnern dar. Dem Partner "
+"der den U.P. übermittelt hat wird eine Transaktion zugesprochen auf die die "
+"Rate für Ebene 1 Anwendung findet. Partner auf Ebene 2 haben Partner auf "
+"Ebene 1 übermittelt usw."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:370
+msgid "Multi-tiered referrals"
+msgstr "Gestaffelte Transaktionen"
+
+#: lib/eext/includes/class-affiliates-enterprise-shortcodes.php:321
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:175
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:504
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:575
+msgid "Name"
+msgstr "Name"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:767
+msgid "No general rate applies."
+msgstr "Es findet keine allgemeine Rate Anwendung."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:327
+#, php-format
+msgid ""
+"Referral rates for tier levels %d to %d are expressed using decimal numbers."
+msgstr ""
+"Raten für Staffelebenen %d bis %d werden durch Dezimalzahlen ausgedrückt."
+
+#: lib/eext/includes/class-affiliates-enterprise-shortcodes.php:324
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:183
+msgid "Referrals"
+msgstr "Transaktionen"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:649
+msgid "Referred affiliates"
+msgstr "Übermittelte Partner"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:604
+msgid "Referred by ..."
+msgstr "Übermittelt durch ..."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:582
+msgid "Referrer"
+msgstr "Übermittler"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:746
+msgid "Relative level rates apply."
+msgstr "Relative Raten finden Anwendung."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:436
+msgid "Relative rates"
+msgstr "Relative Raten"
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:592
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:367
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:452
+msgid "Save"
+msgstr "Speichern"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:779
+msgid "Set"
+msgstr "Setzen"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:741
+msgid "Specific level rates can be set for this affiliate here."
+msgstr ""
+"Spezifische Ebenenraten können für diesen Partner hier festgelegt werden."
+
+#: lib/eext/wp-init.php:278
+msgid ""
+"The <a href=\"http://www.itthinx.com/plugins/affiliates-pro\" target=\"_blank"
+"\">Affiliates Pro</a> plugin must be deactivated or removed."
+msgstr ""
+"Das <a href=\"http://www.itthinx.com/plugins/affiliates-pro\" target=\"_blank"
+"\">Affiliates Pro</a> Plugin muss deaktiviert oder entfernt werden."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:301
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:717
+#, php-format
+msgid "The rate %s indicated for level %d exceeds 1.00 for the sum of rates."
+msgstr "Die Rate %s für Ebene %d übersteigt 1.00 als Gesamtrate."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:614
+msgid ""
+"The referring affiliate can be changed with immediate effect by clicking "
+"<input class=\"button\" type=\"submit\" value=\"Assign\" /> - this action can "
+"not be undone."
+msgstr ""
+"Der übermittelnde Partner kann geändert werden durch Klick auf <input class="
+"\"button\" type=\"submit\" value=\"Zuweisen\" /> - diese Aktion kann nicht "
+"rückgängig gemacht werden."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:310
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:726
+#, php-format
+msgid "The sum of rates is %s and exceeds 1.00."
+msgstr "Die Ratensumme ist %s und übersteigt 1.00."
+
+#: lib/eext/includes/class-affiliates-enterprise-shortcodes.php:361
+msgid "There are no campaigns."
+msgstr "Es sind keine Kampagnen vorhanden."
+
+#: lib/eext/wordpress/class-affiliates-relations-wordpress.php:153
+msgid "There are no results."
+msgstr "Ohne Resultate."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:317
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:733
+msgid ""
+"These rates are relative to the order amount. Note that a sum of level rates "
+"equal to or greater than 1.00 means that the total commissions credited to "
+"tiers, is equal to - or higher than - the originating order amount."
+msgstr ""
+"Diese Raten sind relativ zum Auftragsbetrag. Eine Ratensumme größer oder "
+"gleich 1.00 bedeutet dass die Gesamtsumme der Kommissionen dem ursprünglichen "
+"Auftragsbetrag gleichwertig ist oder diesen übersteigt."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:338
+msgid ""
+"Tier referrals are created when an affiliate - the original referrer "
+"<strong>O.R.</strong> - is credited with a referral."
+msgstr ""
+"Stufentransaktionen werden erstellt wenn einem Partner - dem Ursprungspartner "
+"<strong>U.P.</strong> - eine Transaktion zugesprochen wird."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:187
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:188
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:322
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:580
+msgid "Tiers"
+msgstr "Staffeln"
+
+#: lib/eext/wordpress/class-affiliates-relations-wordpress.php:78
+msgid "To"
+msgstr "Zu"
+
+#: lib/eext/wordpress/class-affiliates-relations-wordpress.php:77
+msgid "To Id"
+msgstr "Zu Id"
+
+#: lib/eext/includes/class-affiliates-enterprise-shortcodes.php:325
+msgid "Total"
+msgstr "Total"
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:184
+msgid "Totals"
+msgstr "Summen"
+
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:185
+msgid "URL"
+msgstr "URL"
+
+#: lib/eext/wordpress/class-affiliates-relations-wordpress.php:80
+msgid "Valid from"
+msgstr "Gültig von"
+
+#: lib/eext/includes/class-affiliates-enterprise-shortcodes.php:192
+#, php-format
+msgid "Visit %s's website"
+msgstr "Webseite von %s besuchen"
+
+#: lib/eext/includes/class-affiliates-enterprise-shortcodes.php:323
+#: lib/eext/wordpress/class-affiliates-campaigns-table-renderer.php:182
+msgid "Visits"
+msgstr "Besuche"
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:403
+msgid ""
+"When a new affiliate joins, use the <em>Direct</em> affiliate as referrer if "
+"no other affiliate has referred the new one."
+msgstr ""
+"Wenn sich ein neuer Partner registriert, <em>Direkt</em> als Übermittler "
+"verwenden wenn kein anderer Partner als Übermittler agiert hat."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:349
+msgid ""
+"When affiliate A is credited with a referral, so is affiliate B at the "
+"commission rate set for Level 1."
+msgstr ""
+"Wenn eine Transaktion dem Partner A zugesprochen wird, dann wird auch dem "
+"Partner B eine zugesprochen unter Berücksichtigung der Rate für Ebene 1."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:380
+msgid ""
+"You <strong>must enable</strong> this option if you want to run a multi-tier "
+"affiliate program on the site, based on the level rate settings below."
+msgstr ""
+"Sie <strong>müssen</strong> diese Option aktivieren wenn ein gestaffeltes "
+"Partnerprogramm auf dieser Seite gewünscht ist, unter Berücksichtigung der "
+"Ebenenraten die unten gesetzt werden."
+
+#: lib/eext/wordpress/class-affiliates-multi-tier.php:391
+#, php-format
+msgid ""
+"You can set the number of levels as desired (minimum 1 level). By default, %d "
+"levels are provided."
+msgstr ""
+"Sie können die Anzahl der Ebenen wie gewünscht festlegen (mindestens 1 "
+"Ebene). Standardmäßig werden %d Ebenen bereitgestellt."
+
+#: lib/eext/includes/class-affiliates-enterprise-shortcodes.php:58
+#: lib/eext/includes/class-affiliates-enterprise-shortcodes.php:121
+#: lib/eext/includes/class-affiliates-enterprise-shortcodes.php:289
+#, php-format
+msgid "since %s"
+msgstr "seit %s"
+
+#: lib/eext/includes/class-affiliates-enterprise-shortcodes.php:59
+#: lib/eext/includes/class-affiliates-enterprise-shortcodes.php:122
+#: lib/eext/includes/class-affiliates-enterprise-shortcodes.php:290
+#, php-format
+msgid "until %s"
+msgstr "bis %s"

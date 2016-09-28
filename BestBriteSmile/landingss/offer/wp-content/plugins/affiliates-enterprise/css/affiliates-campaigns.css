@@ -1,0 +1,43 @@
+/**
+ * affiliates-campaigns.css
+ * 
+ * Copyright 2015 "kento" Karim Rahimpur - www.itthinx.com
+ * 
+ * This code is provided subject to the license granted.
+ * Unauthorized use and distribution is prohibited.
+ * See COPYRIGHT.txt and LICENSE.txt
+ *
+ * This code is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * 
+ * This header and all notices must be kept intact.
+ * 
+ * @author Karim Rahimpur
+ * @package affiliates-anterprise
+ * @since affiliates-enterprise 2.8.0
+ */
+div.campaigns,
+div.campaign-create,
+div.campaign-edit {
+	margin: 1em;
+}
+div.campaign-create .field label,
+div.campaign-edit .field label {
+	display: block;
+}
+div.campaign-create .field,
+div.campaign-edit .field  {
+	margin: 4px 0;
+}
+div.campaign-create .field input,
+div.campaign-edit .field input,
+div.campaign-create .field textarea,
+div.campaign-edit .field textarea {
+	width: 100%;
+	display: block;
+}
+div.campaign-create .buttons,
+div.campaign-edit .buttons {
+	margin: 1em 0;
+}

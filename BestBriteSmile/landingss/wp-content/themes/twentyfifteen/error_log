@@ -1,0 +1,4 @@
+[25-Oct-2015 18:59:55 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/laughlin/public_html/wp-content/themes/twentyfifteen/index.php on line 17
+[25-Oct-2015 19:00:25 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/laughlin/public_html/wp-content/themes/twentyfifteen/404.php on line 10
+[27-Nov-2015 04:07:12 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/laughlin/public_html/wp-content/themes/twentyfifteen/index.php on line 17
+[27-Nov-2015 04:08:37 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/laughlin/public_html/wp-content/themes/twentyfifteen/index.php on line 17

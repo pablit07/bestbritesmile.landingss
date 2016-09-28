@@ -1,0 +1,3 @@
+[14-Jan-2016 23:49:54 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/laughlin/public_html/wp-content/themes/kallyas/404.php on line 1
+[20-May-2016 17:15:10 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/laughlin/public_html/wp-content/themes/kallyas/404.php on line 1
+[22-May-2016 00:40:45 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home1/laughlin/public_html/wp-content/themes/kallyas/404.php on line 1

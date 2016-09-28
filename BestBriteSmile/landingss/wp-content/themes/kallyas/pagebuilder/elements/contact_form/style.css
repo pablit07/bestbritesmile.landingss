@@ -1,0 +1,31 @@
+.zn_contact_form_container {}
+.zn_contact_form_container .zn_field_valid .zn_form_input { outline: 1px solid #00DF00; }
+.zn_contact_form_container .zn_field_not_valid .zn_form_input{ outline: 1px solid red; }
+.zn_contact_form_container .zn_contact_captcha_text { margin-bottom: 5px; display: block;}
+.zn_contact_form_container .zn_form_loading { opacity: 0.5; }
+.zn_contact_form_container .zn_captcha_text { position: absolute; left: 17px; padding: 10px 15px; width: 76px; }
+.zn_contact_form_container .zn_validate_captcha { padding-left: 55px; }
+
+.contactForm { position: relative; padding-top: 10px; }
+.zn_contact_form > p { margin-bottom: 0; }
+.contactForm h2 {}
+.contactForm .submit:before { line-height: 1; font-size: 20px; font-style: normal; font-variant: normal; text-transform: none; -webkit-font-smoothing: antialiased; }
+.contactForm input[type=text], .contactForm input[type=password], .contactForm textarea, .contactForm select, .contactForm input[type=email] { /*width: 450px; */ max-width: 100%;  margin-bottom: 15px; }
+/*.contactForm textarea { width: 550px; }*/
+.contactForm .zn_submit_container {  }
+.contactForm #contactResponse { overflow: hidden; }
+.contactForm .contactBusy { position: absolute; top: 0; bottom: 0; left: 0; right: 0; display: none; }
+.contactForm .progressContainer { height: 35px; bottom: 0; right: 0; position: absolute; width: 150px; }
+/*.contactForm .alert { padding: 5px; margin: 0; }
+.contactForm .alert-dismissable .close { top: -5px; right: 0px; }*/
+.contactForm .zn_contact_ajax_response {width: 100%; margin-bottom: 20px; }
+
+/* Checkbox style */
+.zn_contact_form_container .zn_form_field input[type=checkbox] {display: inline;width: auto;}
+.zn_contact_form_container p.zn_checkbox {margin-bottom: 0;}
+
+.zn_contact_form_container .zn_form_field input[type=checkbox] + label { position: relative; display: inline; left: 12px; top: -2px; font-size: 12px; }
+
+.zn_contact_form.cf--placeholders .kl-fancy-form .form-control { padding: 15px; }
+
+.zn_contact_form .kl-fancy-form .form-control { padding-left: 10px }

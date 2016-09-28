@@ -1,0 +1,62 @@
+* 1.0.9 - 09/09/2016
+====================
+- Fixed: Error when Kirki plugin is not active
+- Removed: Tracking on premium link
+
+
+* 1.0.8 - 05/09/2016
+====================
+- Added: Custom logo support
+
+
+* 1.0.7 - 05/09/2016
+====================
+- Updated: WooCommerce templates
+- Changed: PRO version button on customizer
+- Fixed: Translation ready issues
+
+
+* 1.0.6 - 13/07/2016
+====================
+- Changed: Theme Info page
+
+
+* 1.0.5 - 07/07/2016
+====================
+- Removed: Redirect after theme installation
+- Fixed: Issues on Theme Info page
+- Fixed: Issue with menu
+
+
+* 1.0.4 - 04/07/2016
+====================
+- Removed: Deprecated tags in style.css
+- Added: Credits to TGMPA
+- Added: Theme Info page
+- Changed: Footer text
+- Removed: ocin_lite_get_custom_css()
+- Updated: TGMPA class
+- Fixed: Error when WooCommerce was not active
+
+
+* 1.0.3 - 15/02/2016
+====================
+- Updated: theme version
+
+
+* 1.0.2 - 10/02/2016
+====================
+- Added: Hover effect for post thumbnails
+- Added: Better styles for My Account page
+- Added: Portrait CSS class on products
+- Changed: Logo placement
+
+
+* 1.0.1 - 09/02/2016
+====================
+- Complete Theme Update
+
+
+* 1.0.0 - 07/12/2015
+====================
+- Released

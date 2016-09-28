@@ -1,0 +1,56 @@
+/**
+ * affiliates_enterprise_admin.css
+ * 
+ * Copyright 2011 "kento" Karim Rahimpur - www.itthinx.com
+ * 
+ * This code is provided subject to the license granted.
+ * Unauthorized use and distribution is prohibited.
+ * See COPYRIGHT.txt and LICENSE.txt
+ *
+ * This code is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * 
+ * This header and all notices must be kept intact.
+ *
+ * @author Karim Rahimpur
+ * @package affiliates-enterprise
+ * @since affiliates-enterprise 1.0.0
+ */
+
+.affiliates-enterprise-footer {
+	border-top: 1px solid #ccc;
+	padding-top: 0.5em;
+	margin-top: 0.5em;
+}
+.affiliates-enterprise-footer .affiliates-enterprise a {
+	text-decoration: none;
+}
+.affiliates-enterprise-footer .affiliates-footer {
+	border-top: 1px solid #eee;
+	padding-top: 0.25em;
+	margin-top: 0.25em;
+}
+
+.depth {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 0.62em;
+	margin-top: 0.32em;
+}
+.depth.even {
+	background-color: #fff;
+}
+.depth.odd {
+	background-color: #f0f0f0;
+}
+
+.depth-0 {
+	margin-right: 1em;
+	border: none;
+	padding: 0;
+}
+span.title {
+	padding: 0.32em;
+	display: block;
+}

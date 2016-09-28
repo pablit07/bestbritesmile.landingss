@@ -1,0 +1,43 @@
+<?php if(! defined('ABSPATH')){ return; }
+/**
+ * Displays the layout for the post type PAGE, inside page.php
+ * @internal
+ * @see page-content-template.inc.php
+ */
+
+
+$image = '';
+if ( has_post_thumbnail() && !post_password_required() ) {
+    $thumb   = get_post_thumbnail_id();
+    $f_image = wp_get_attachment_url( $thumb );
+    if ( $f_image ) {
+
+        $featured_image = wp_get_attachment_image_src($thumb, 'full');
+        if(isset($featured_image[0]) && !empty($featured_image[0])) {
+            $image = '<div class="zn_page_image"><a data-lightbox="image" href="' . $featured_image[0] . '" class="hoverBorder full-width" style="margin-bottom:4px;"><img class="shadow" src="' . $featured_image[0] . '" alt=""/></a></div>';
+        }
+
+    }
+}
+
+echo '<div class="zn_content">';
+
+    // TITLE
+    $page_title_show = get_post_meta( get_the_ID(), 'zn_page_title_show', true );
+
+    if( !empty( $page_title_show ) && $page_title_show == 'yes' ){
+        echo '<h1 class="page-title">' . get_the_title() . '</h1>';
+    }
+
+             
+?>
+        <div class="itemBody">
+            <!-- Blog Image -->
+            <?php echo $image; ?>
+            <!-- Blog Content -->
+            <?php the_content(); ?>
+
+        </div>
+<?php
+
+echo '</div>';

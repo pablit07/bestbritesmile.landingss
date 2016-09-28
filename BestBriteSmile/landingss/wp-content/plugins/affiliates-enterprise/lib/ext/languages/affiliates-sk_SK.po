@@ -1,0 +1,611 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Slovak PRO 2.1.2 v1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-15 21:12+0200\n"
+"PO-Revision-Date: 2012-07-16 11:07+0100\n"
+"Last-Translator: CR3OSK <cr3osk@gmail.com>\n"
+"Language-Team: CR3O <cr3osk@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Slovak\n"
+"X-Poedit-Country: SLOVAKIA\n"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:184
+#, php-format
+msgid "%.3f Ratio"
+msgstr "%.3f Pomer"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:591
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:498
+msgid "(inoperative)"
+msgstr "(mimo prevádzky)"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:585
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:492
+msgid "(removed)"
+msgstr "(odstránené)"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:411
+msgid "*To undo, each referral would have to be set to the desired status individually."
+msgstr "*Pokiaľ chcete dať späť, každý referujúci by musel nastaviť stav individuálne."
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:461
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:507
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:513
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:352
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:217
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:215
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:460
+msgid "Accepted"
+msgstr "Akceptované"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:53
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:90
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:96
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:77
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:26
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:80
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:207
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:213
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:83
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:18
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:158
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:244
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:250
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:125
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:200
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:204
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:267
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:338
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:342
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:403
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:474
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:478
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-profile-wordpress.php:79
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:125
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:224
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:228
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/includes/generate-mass-payment-file.php:16
+msgid "Access denied."
+msgstr "Prístup odmietnutý."
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:272
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:49
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:179
+msgid "Add"
+msgstr "Pridať"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:161
+msgid "Add a new attribute"
+msgstr "Pridať nový atribút"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:501
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:384
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:385
+msgid "Affiliate"
+msgstr "Affiliate"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:43
+msgid "Affiliate Attributes"
+msgstr "Affiliate atribút"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:496
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:402
+msgid "Affiliate Id"
+msgstr "Affiliate Id"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:498
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:404
+msgid "Affiliate Name"
+msgstr "Meno affiliate-a"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:500
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:406
+msgid "Affiliate Username"
+msgstr "Užívateľské meno affiliate-a"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:502
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:292
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:206
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:204
+msgid "Amount"
+msgstr "Množstvo"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:265
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:439
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:279
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:515
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:529
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:421
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:435
+msgid "Apply"
+msgstr "Aplikovať"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:182
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:320
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:456
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:197
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:440
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:280
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:516
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:422
+msgid "Clear"
+msgstr "Vymazať"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:272
+msgid "Click to add a new affiliate"
+msgstr "Kliknite pre pridanie nového affiliate-a"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:49
+msgid "Click to add a new attribute"
+msgstr "Klinite pre priadanie nového atribútu"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:396
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:446
+msgid "Click to close these referrals"
+msgstr "Kliknite pre zatvorenie týchto referencií"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:439
+msgid "Click to generate a PayPal Mass Payment File"
+msgstr "Kliknite pre generovanie hromadnej Paypal platby"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:400
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:450
+msgid "Close Referrals"
+msgstr "Zatvoriť referencie"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:399
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:449
+msgid "Close referrals"
+msgstr "Zatvoriť referencie"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:393
+msgid "Close these referrals by clicking:"
+msgstr "Zatvoriť tieto referencie kliknutím:"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:462
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:508
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:514
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:353
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:241
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:239
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:461
+msgid "Closed"
+msgstr "Zatvorené"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:215
+msgid "Closing referrals"
+msgstr "Zatvára sa referencia"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-attributes.php:17
+msgid "Coupons"
+msgstr "Kupóny"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:233
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:369
+#, php-format
+msgid "Coupons may not be assigned to multiple affiliates. The coupon code <strong>%s</strong> has already been assigned to the affiliate with Id %d."
+msgstr "Kupóny nemusia byť priradené k viacerým affiliate-om. Kupónový kód <strong>%s</strong> už bol priradený k ID affiliate partnera: %d."
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:503
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:296
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:207
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:205
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:388
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:476
+msgid "Currency"
+msgstr "Mena"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:499
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:285
+msgid "Date"
+msgstr "Dátum"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:171
+msgid "Default referral amount calculation"
+msgstr "Štandardný výpočet množstva referencií"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:179
+msgid "Default referral calculation"
+msgstr "Štandardný výpočet referencií"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:184
+msgid "Default referral calculation value"
+msgstr "Štandardná hodnota výpočtu referencií"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:303
+msgid "Details"
+msgstr "Detaily"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:249
+msgid "Duplicate key"
+msgstr "Duplicitný kľúč"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:390
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:529
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:58
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:97
+msgid "Edit"
+msgstr "Editovať"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:143
+#, php-format
+msgid "Edit %s"
+msgstr "Editovať %s"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:162
+msgid "Edit an affiliate"
+msgstr "Editovať affiliate-a"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:299
+msgid "Edit an attribute"
+msgstr "Editovať atribút"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:385
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:386
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-profile-wordpress.php:160
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:174
+msgid "Email"
+msgstr "Email"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:481
+msgid "Failed"
+msgstr "Nepodarilo sa"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:427
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:265
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:487
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:399
+msgid "Filters"
+msgstr "Filtre"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-profile-wordpress.php:147
+msgid "First Name"
+msgstr "Meno"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:269
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:274
+msgid "Format: YYYY-MM-DD"
+msgstr "Format: YYYY-MM-DD"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:430
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:268
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:504
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:388
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:410
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:186
+msgid "From"
+msgstr "Od"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:442
+msgid "Generate"
+msgstr "Generovať"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:443
+msgid "Generate PayPal Mass Payment File"
+msgstr "Generovať súbor hromadnej PayPal platby"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:143
+msgid "Hits"
+msgstr "Kliknutia"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:383
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:384
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:56
+msgid "Id"
+msgstr "Id"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:177
+msgid "If a valid <strong>Username</strong> is specified and no email is given, the user's email address will be used automatically."
+msgstr "Keď špecifikované platné <strong>užívateľské meno</strong> a nie je zadaná emailová adresa, použije sa emailová adresa užívateľa automaticky."
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:343
+msgid "If these referrals can be closed, click the confirmation button below."
+msgstr "Keď sa tieto referencie dajú zatvoriť, kliknite na potvrdzujúce tlačidlo."
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:414
+msgid "Include inoperative affiliates"
+msgstr "Vrátane neoperujúcich affiliate-ov"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:416
+msgid "Include removed affiliates"
+msgstr "Vrátane odstránených affiliate-ov"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:253
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:389
+msgid "Invalid data"
+msgstr "Nesprávne údaje"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:385
+msgid "Invalid key"
+msgstr "Nesprávny kľúč"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:168
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:306
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:442
+msgid "Key"
+msgstr "Kľúč"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-profile-wordpress.php:152
+msgid "Last Name"
+msgstr "Priezvisko"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:539
+msgid "Link"
+msgstr "Odkaz"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:392
+msgid "Links"
+msgstr "Odkazy"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:266
+msgid "Manage Affiliates"
+msgstr "Spravovať affiliate-ov"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:491
+msgid "Minimum Total"
+msgstr "Minimálny súčet"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:170
+msgid "Name"
+msgstr "Meno"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:272
+msgid "New Affiliate"
+msgstr "Nový affiliate"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:49
+msgid "New Attribute"
+msgstr "Nový atribút"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:131
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:244
+msgid "No such affiliate."
+msgstr "Žiadny taký affiliate"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:97
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:142
+msgid "None"
+msgstr "Žiadne"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:454
+#, php-format
+msgid "Note that the PayPal Mass Payment <a target='_blank' href='%s'>File Format</a> allows only one currency type per Mass Payment file."
+msgstr "POZOR,<a target='_blank' href='%s'>Formát súboru</a> hromadnej PayPal platby umožňuje vykonať platbu pomocou tohoto súboru len v jednej mene."
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:473
+msgid "Omitted"
+msgstr "Vynechané"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-attributes.php:13
+msgid "PayPal Email"
+msgstr "PayPal Email"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:463
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:509
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:515
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:354
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:229
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:227
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:462
+msgid "Pending"
+msgstr "Spracúva sa"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:333
+msgid "Please review the list of referrals that will be <em>closed</em>."
+msgstr "Prosíme Vás o skontrolovanie referencií ktoré budúi <em>zatvorené</em>."
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:500
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:288
+msgid "Post"
+msgstr "Poslať"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:547
+msgid "Pretty"
+msgstr "Pekné"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:145
+msgid "Ratio"
+msgstr "Pomer"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-attributes.php:14
+msgid "Referral Amount"
+msgstr "Odporučené množstvo"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-attributes.php:15
+msgid "Referral Amount Method"
+msgstr "Metóda odporučeného množstva"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-attributes.php:16
+msgid "Referral Rate"
+msgstr "Pomer odporučenia"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:466
+msgid "Referral Status"
+msgstr "Stav odporúčania"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:144
+msgid "Referrals"
+msgstr "Odporučenia"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:464
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:510
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:516
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:355
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:253
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:251
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:463
+msgid "Rejected"
+msgstr "Odmietnuté"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:391
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:532
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:59
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:98
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:453
+msgid "Remove"
+msgstr "Odstránené"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:435
+msgid "Remove an attribute"
+msgstr "Odstrániť atribút"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:262
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:526
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:432
+msgid "Results per page"
+msgstr "Výsledkov na stranu"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:190
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:317
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-profile-wordpress.php:187
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:195
+msgid "Save"
+msgstr "Uložiť"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:36
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:37
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:138
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:134
+msgid "Show totals for accepted referrals"
+msgstr "Zobraziť akceptované odporúčania celkom"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:144
+msgid "Show totals for closed referrals"
+msgstr "Zobraziť zatvorené odporúčania celkom"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:139
+msgid "Show totals for pending referrals"
+msgstr "Zobraziť spracovávané odporúčania celkom"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:149
+msgid "Show totals for rejected referrals"
+msgstr "Zobraziť odmietnuté odporúčania celkom"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:504
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:300
+msgid "Status"
+msgstr "Stav"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wp-init.php:196
+msgid "The <a href=\"http://www.itthinx.com/plugins/affiliates\" target=\"_blank\">Affiliates</a> plugin must be deactivated or removed."
+msgstr "Rozšírenie <a href=\"http://www.itthinx.com/plugins/affiliates\" target=\"_blank\">Affiliates</a> musí byť deaktivované alebo odstránené."
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:513
+#, php-format
+msgid "There are different email addresses on record for the affiliate and the associated user. This might be ok, but if in doubt please check. The email address on file for the user is %s"
+msgstr "Existujú rozličné záznamy emailových adries pre affiliate-a, priradené k užívateľovi. Toto môže byť OK, ale v prípade pochybností to skontrolujte. Tento email je pod užívateľom %s"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:546
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:412
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:612
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:561
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:106
+msgid "There are no results."
+msgstr "Nie sú žiadne výsledky."
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:483
+#, php-format
+msgid "These referrals could not be updated to <em>%s</em>."
+msgstr "Fererals nebolo možné aktualizovať  <em>%s</em>."
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:475
+#, php-format
+msgid "These referrals have been omitted because their status must not be changed to <em>%s</em>."
+msgstr "Tieto referencie boli vynechané, lebo ich stav sa nie je možné zmeniť na <em>%s</em>."
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:468
+#, php-format
+msgid "These referrals have been updated to <em>%s</em>."
+msgstr "Tieto referencie boli aktualizované na <em>%s</em>."
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:175
+msgid "These settings will be used to calculate referral amounts, if no specific settings are given for an affiliate."
+msgstr "Tieto nastavenia budú použité na výpočet množstva odporúčaní, keď nie sú dané špeciálne nastavenia pre affiliate partnera."
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:406
+msgid "This action can not be undone*."
+msgstr "Túto akciu NIE JE možné navrátiť*."
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:128
+msgid "Title:"
+msgstr "Nadpis:"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:205
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-widget.php:203
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:387
+msgid "Total"
+msgstr "Celkom"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:230
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:50
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-admin-menu-wordpress.php:51
+msgid "Totals"
+msgstr "Celkom"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:543
+msgid "URL Parameter"
+msgstr "URL Parameter"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-stats-renderer-wordpress.php:434
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:273
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:506
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:389
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:412
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:190
+msgid "Until"
+msgstr "Do"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:466
+msgid "Updated"
+msgstr "Aktualizované"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-totals-wordpress.php:386
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:387
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliate-wordpress.php:181
+msgid "Username"
+msgstr "Užívateľské meno"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/abstract/class-affiliates-totals.php:339
+msgid "Usually only referrals that are <em>accepted</em> and have been paid out should be <em>closed</em>. If there are unwanted or too many referrals shown, restrict your filter settings."
+msgstr "Obvikle by sa mali <em>zatvoriť</em> len odporúčania/referrals, ktoré boli <em>akceptované</em> a vyplatené. Keď sa Vám zobrazí príliš veľa odporúčaní, nastavte si filter."
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:57
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:173
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:311
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-attributes-wordpress.php:447
+msgid "Value"
+msgstr "Hodnota"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-stats-renderer-wordpress.php:142
+msgid "Visits"
+msgstr "Návštevy"
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wp-init.php:205
+msgid "You are running PHP with <a target=\"_blank\" href=\"http://www.php.net/manual/en/book.bc.php\">BCMath Arbitrary Precision Mathematics</a> disabled. Your <strong>Affiliates</strong> plugin will use substitute functions, but you should seriously consider getting BCMath enabled to avoid loss of precision."
+msgstr "Váš systém beží na verzii PHP, s vypnutým nastavením <a target=\"_blank\" href=\"http://www.php.net/manual/en/book.bc.php\">BCMath Arbitrary Precision Mathematics</a>. Vaše <strong>Affiliates</strong> rozšírenie bude bežať s náhradnými funkciami. Mali by ste sa však Vážne zamyslieť nad zapnutím BCMath, aby ste zabránili strate presnosti výpočtov."
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:23
+#, php-format
+msgid "Your site is not using pretty <a href=\"%s\">permalinks</a>. You will only be able to use URL parameter based <span class=\"affiliate-link\">affiliate links</span> but not pretty <span class=\"affiliate-permalink\">affiliate permalinks</span>, unless you change your permalink settings."
+msgstr "Vaša stránka nepoužíva <a href=\"%s\">pekné permalinky</a>. Budete môcť používať len URL parameter na základe <span class=\"affiliate-link\">affiliate odkazov</span>, ale nie vo forme <span class=\"affiliate-permalink\">pekných affiliate permalinkov</span>, kým nezmeníte permalink nastavenia."
+
+#: /var/www/aff/wp-content/plugins/affiliates-pro/lib/ext/wordpress/class-affiliates-affiliates-wordpress.php:553
+#, php-format
+msgid "you need to adjust your <a href=\"%s\">permalink settings</a>."
+msgstr "musíte nastaviť Vaše <a href=\"%s\">permalinky</a>."
+

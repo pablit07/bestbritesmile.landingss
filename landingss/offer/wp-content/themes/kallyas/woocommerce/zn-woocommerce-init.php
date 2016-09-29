@@ -281,6 +281,21 @@ add_action( 'woocommerce_after_main_content', 'zn_woocommerce_after_main_content
 
 
 function zn_woocommerce_before_main_content_75off(){
+	
+	// Set the product ID to remove
+    $prod_to_remove = 2300;
+    // Cycle through each product in the cart
+    foreach( WC()->cart->cart_contents as $prod_in_cart ) {
+        // Get the Variation or Product ID
+        $prod_id = ( isset( $prod_in_cart['variation_id'] ) && $prod_in_cart['variation_id'] != 0 ) ? $prod_in_cart['variation_id'] : $prod_in_cart['product_id'];
+        // Check to see if IDs match
+        if( $prod_to_remove == $prod_id ) {
+            // Get it's unique ID within the Cart
+            $prod_unique_id = WC()->cart->generate_cart_id( $prod_id );
+            // Remove it from the cart by un-setting it
+            unset( WC()->cart->cart_contents[$prod_unique_id] );
+        }
+    }
 
 	$args = array();
 	if( ! is_single() ){

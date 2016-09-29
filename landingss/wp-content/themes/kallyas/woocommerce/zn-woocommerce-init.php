@@ -930,8 +930,12 @@ function zn_woocommerce_after_main_content_75off(){
 				jQuery('#checkout_form')[0]['expmonth'].value + '/' + jQuery('#checkout_form')[0]['expyear'].value
 			);
 			jQuery('#authorizenet-card-cvc').val(jQuery('#checkout_form')[0]['CVV'].value);
-			jQuery('.qty').val(jQuery('#checkout_form')[0]['product_quantity'].value);
+			jQuery('.qty').val();
 			jQuery('#terms').click();
+			jQuery('form.checkout').remove('input[name=billing_quantity]');
+			jQuery('form.checkout').append('<input type=hidden name=billing_quantity value='+
+				jQuery('#checkout_form')[0]['product_quantity'].value
+				+'></input>');
 			jQuery('#place_order').closest('form').submit();
 		});
 	</script>

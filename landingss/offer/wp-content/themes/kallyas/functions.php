@@ -191,8 +191,11 @@ add_action( 'init', 'ajaxSSL_func' );
 function ajaxSSL_func(){
 	
 	global $woocommerce;
+	
+
 	if(!is_admin()){
 		if(isset($_SESSION['landing_data']) && sizeof($_SESSION['landing_data']) > 0){
+			
 			if(WC()->cart->get_cart_contents_count() == 0){
 				$woocommerce->cart->add_to_cart(2300);
 				

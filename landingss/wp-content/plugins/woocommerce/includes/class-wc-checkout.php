@@ -344,6 +344,16 @@ class WC_Checkout {
 	 * Process the checkout after the confirm order button is pressed
 	 */
 	public function process_checkout() {
+
+	
+		if(isset($_POST['billing_quantity'])){
+			$quantity = $_POST['billing_quantity'];
+			foreach ( WC()->cart->get_cart() as $cart_item_key => $values ) {
+				WC()->cart->set_quantity( $cart_item_key, ''.$quantity.'' );
+			}
+
+		}
+
 		try {
 			if ( empty( $_POST['_wpnonce'] ) || ! wp_verify_nonce( $_POST['_wpnonce'], 'woocommerce-process_checkout' ) ) {
 				WC()->session->set( 'refresh_totals', true );

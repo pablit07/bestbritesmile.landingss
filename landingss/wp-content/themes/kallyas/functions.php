@@ -193,15 +193,6 @@ function ajaxSSL_func(){
 	global $woocommerce;
 	global $post;
 
-	// if(!is_admin() && $post->ID != 2300){
-	// 	$quantity = $_REQUEST['billing_quantity'];
-	// 	// get first item in cart dict
-	// 	$array = WC()->cart->get_cart();
-	// 	$cart_item_key = reset($array);
-
-	// 	WC()->cart->set_quantity( $cart_item_key, $quantity, false );
-	// }
-
 	if(!is_admin() && $post->ID == 2300){
 		if(isset($_SESSION['landing_data']) && sizeof($_SESSION['landing_data']) > 0){
 			if(WC()->cart->get_cart_contents_count() == 0){

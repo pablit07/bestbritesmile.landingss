@@ -931,7 +931,7 @@ function zn_woocommerce_after_main_content_75off(){
 			);
 			jQuery('#authorizenet-card-cvc').val(jQuery('#checkout_form')[0]['CVV'].value);
 			jQuery('.qty').val();
-			jQuery('#terms').click();
+			jQuery('#terms').attr('checked', 'checked').val(true);
 			jQuery('form.checkout').remove('input[name=billing_quantity]');
 			jQuery('form.checkout').append('<input type=hidden name=billing_quantity value='+
 				jQuery('#checkout_form')[0]['product_quantity'].value

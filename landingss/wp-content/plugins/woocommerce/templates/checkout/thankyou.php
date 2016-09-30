@@ -13,6 +13,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 if ( $order ) : ?>
 
+<style type="text/css">.new-price {display: none;}</style>
+
 	<?php if ( $order->has_status( 'failed' ) ) : ?>
 
 		<p><?php _e( 'Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction.', 'woocommerce' ); ?></p>

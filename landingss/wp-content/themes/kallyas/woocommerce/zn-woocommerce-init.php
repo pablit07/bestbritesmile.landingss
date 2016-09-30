@@ -583,17 +583,17 @@ function zn_woocommerce_before_main_content_75off(){
     
 <div class="clearfix elOrderProductOptinProducts" data-cf-product-template="true">
     <div class="pull-left elOrderProductOptinProductName">
-        <input id="lbl-011" class="click_radio checkbox123" data-name="Buy 2 Best Brite Smile Teeth Whitener, GET 1 FREE! (Total $149)" name="product_quantity" data-val="2264" data-price="149.00" data-qty="3" value="3" type="radio" checked="checked">
+        <input id="lbl-011" class="click_radio checkbox123" data-name="Buy 2 Best Brite Smile Teeth Whitener, GET 1 FREE! (Total $147)" name="product_quantity" data-val="2264" data-price="147.00" data-qty="3" value="3" type="radio" checked="checked">
         <div class="pull-right elOrderProductOptinPrice" data-cf-product-price="true" taxamo-currency="USD"><b>$49/ea</b></div>
-        <label for="lbl-01" data-cf-product-name="true"><b>Buy 2 Best Brite Smile Teeth Whiteners, GET 1 FREE!  </b> (Total $149)</label>
+        <label for="lbl-01" data-cf-product-name="true"><b>Buy 2 Best Brite Smile Teeth Whiteners, GET 1 FREE!  </b> (Total $147)</label>
     </div>
 </div>
     
 <div class="clearfix elOrderProductOptinProducts" data-cf-product-template="true">
     <div class="pull-left elOrderProductOptinProductName">
-        <input id="lbl-011" class="click_radio" data-name="Buy 1 Best Brite Smile Teeth Whitener, GET ONE 75% OFF! " name="product_quantity" data-val="2263" data-price="119.00" data-qty="2" value="2" type="radio">
+        <input id="lbl-011" class="click_radio" data-name="Buy 1 Best Brite Smile Teeth Whitener, GET ONE 75% OFF! " name="product_quantity" data-val="2263" data-price="118.00" data-qty="2" value="2" type="radio">
         <div class="pull-right elOrderProductOptinPrice" data-cf-product-price="true" taxamo-currency="USD"><b>$59/ea</b></div>
-        <label for="lbl-01" data-cf-product-name="true">Buy 1 Best Brite Smile Teeth Whitener, GET ONE 75% OFF! (Total $119)</label>
+        <label for="lbl-01" data-cf-product-name="true">Buy 1 Best Brite Smile Teeth Whitener, GET ONE 75% OFF! (Total $118)</label>
     </div>
 </div>
 
@@ -627,7 +627,7 @@ function zn_woocommerce_before_main_content_75off(){
     <div class="pull-left elOrderProductOptinProductName">
         <input id="lbl-011" class="click_radio" data-name="10 Best Brite Smile Brushes" name="product_quantity" data-val="2262" data-qty="10" value="6" data-price="350.00" type="radio">
         <div class="pull-right elOrderProductOptinPrice" data-cf-product-price="true" taxamo-currency="USD">$350</div>
-        <label for="lbl-01" data-cf-product-name="true">Buy 6 Best Brite Smile Teeth Whitener Sets - ($35/ea)</label>
+        <label for="lbl-01" data-cf-product-name="true">Buy 10 Best Brite Smile Teeth Whitener Sets - ($35/ea)</label>
     </div>
 </div>
 

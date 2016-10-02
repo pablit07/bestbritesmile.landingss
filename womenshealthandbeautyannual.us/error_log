@@ -1,0 +1,2 @@
+[20-Jul-2016 10:58:15 UTC] PHP Fatal error:  Call to undefined function ftrtotime() in /home/sergiored/public_html/demo/consumerhealth/wp-content/themes/mts_best/functions.php on line 2091
+[20-Jul-2016 10:58:19 UTC] PHP Fatal error:  Call to undefined function ftrtotime() in /home/sergiored/public_html/demo/consumerhealth/wp-content/themes/mts_best/functions.php on line 2091

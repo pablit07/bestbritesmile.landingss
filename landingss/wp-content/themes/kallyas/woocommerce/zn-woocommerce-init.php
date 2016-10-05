@@ -625,7 +625,7 @@ function zn_woocommerce_before_main_content_75off(){
     
 <div class="clearfix elOrderProductOptinProducts" data-cf-product-template="true">
     <div class="pull-left elOrderProductOptinProductName">
-        <input id="lbl-011" class="click_radio" data-name="10 Best Brite Smile Brushes" name="product_quantity" data-val="2262" data-qty="10" value="6" data-price="350.00" type="radio">
+        <input id="lbl-011" class="click_radio" data-name="10 Best Brite Smile Brushes" name="product_quantity" data-val="2262" data-qty="10" value="10" data-price="350.00" type="radio">
         <div class="pull-right elOrderProductOptinPrice" data-cf-product-price="true" taxamo-currency="USD">$350</div>
         <label for="lbl-01" data-cf-product-name="true">Buy 10 Best Brite Smile Teeth Whitener Sets - ($35/ea)</label>
     </div>

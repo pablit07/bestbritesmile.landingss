@@ -841,7 +841,7 @@ function zn_woocommerce_before_main_content_75off(){
 <span class="elButtonMain">YES! Ship Me My Shadowhawk Flashlight</span>
 <span class="elButtonSub"></span>
 </a>-->
-<input type="submit" id="new-bott-new" class="elButton elButtonSubtle elButtonSize1 elButtonColor1 elButtonFull" value="YES! Ship Me My Best Brite Smile Teeth Whitener"  style="color: rgb(255, 255, 255); background-image: url(https://landingss.bestbritesmile.com/wp-content/uploads/2016/09/Smile-Teeth-Whitener.png); width: 300px; text-indent: -9999px;">
+<input type="submit" id="new-bott-new" class="elButton elButtonSubtle elButtonSize1 elButtonColor1 elButtonFull" value="YES! Ship Me My Best Brite Smile Teeth Whitener"  style="color: rgb(255, 255, 255); background: url(https://landingss.bestbritesmile.com/wp-content/uploads/2016/09/Smile-Teeth-Whitener.png) no-repeat center center / auto 100%;; width: 300px; text-indent: -9999px;">
 
 
 </div>

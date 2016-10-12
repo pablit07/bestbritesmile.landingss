@@ -6392,7 +6392,7 @@ border:1px solid hsl(107, 56%, 46%) !important;
     border: 1px solid hsl(107, 56%, 46%) !important;
 }
 
-.best-white-landing-page button, html input[type="button"], input[type="reset"], input[type="submit"]{
+.best-white-landing-page button, html input[type="button"], input[type="reset"], .best-white-landing-page input[type="submit"]{
     background:url(https://www.bestbritesmile.com/wp-content/uploads/2016/05/btn.png) no-repeat center center / auto 100%;
 
     border: 0 none;

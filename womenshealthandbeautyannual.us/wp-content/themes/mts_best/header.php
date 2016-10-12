@@ -78,7 +78,7 @@ jQuery(document).ready(function(){
 
 </head>
 
-<body id="blog" <?php body_class('main'); ?> itemscope itemtype="http://schema.org/WebPage" onclick="window.location.href='https://landingft.bestbritesmile.com/'" >
+<body id="blog" <?php body_class('main'); ?> itemscope itemtype="http://schema.org/WebPage">
 
 	<div class="main-container-wrap">
 

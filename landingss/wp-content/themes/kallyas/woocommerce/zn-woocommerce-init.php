@@ -841,7 +841,7 @@ function zn_woocommerce_before_main_content_75off(){
 <span class="elButtonMain">YES! Ship Me My Shadowhawk Flashlight</span>
 <span class="elButtonSub"></span>
 </a>-->
-<input type="submit" id="new-bott-new" class="elButton elButtonSubtle elButtonSize1 elButtonColor1 elButtonFull" value="YES! Ship Me My Best Brite Smile Teeth Whitener"  style="color: rgb(255, 255, 255); background-image: url(https://landingss.bestbritesmile.com/wp-content/uploads/2016/09/Smile-Teeth-Whitener.png); width: 300px;">
+<input type="submit" id="new-bott-new" class="elButton elButtonSubtle elButtonSize1 elButtonColor1 elButtonFull" value="YES! Ship Me My Best Brite Smile Teeth Whitener"  style="color: rgb(255, 255, 255); background-image: url(https://landingss.bestbritesmile.com/wp-content/uploads/2016/09/Smile-Teeth-Whitener.png); width: 300px; text-indent: -9999px;">
 
 
 </div>
@@ -886,7 +886,11 @@ Practices (GMP), which is the highest standard of testing in the supplement indu
 
 <p>Notice: The products and information found on http://bestbritesmile.com are not intended to replace professional medical advice or treatment.  These statements have not been
 
-evaluated by the Food and Drug Administration. These products are not intended to diagnose,  treat, cure or prevent any disease.  Individual results may vary.</p></div><p style="margin-top: 20px" class="text-center text-muted">&copy;2016 Best Brite Smile™ All Rights Reserved.</p>
+evaluated by the Food and Drug Administration. These products are not intended to diagnose,  treat, cure or prevent any disease.  Individual results may vary.</p>
+<p style="font-size: 12px;">
+	Representations regarding the efficacy and safety of Best Brite Smile have not been evaluated by the Food and Drug Administration. The FDA only evaluates foods and drugs, not supplements like these products. These products are not intended to diagnose, prevent, treat, or cure any disease. <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3124242/'>Click here</a> to find evidence of a test, analysis, research, or study describing the benefits, performance or efficacy of Best Brite Smile based on the expertise of relevant professionals.
+</p>
+</div><p style="margin-top: 20px" class="text-center text-muted">&copy;2016 Best Brite Smile™ All Rights Reserved.</p>
 </div>
 
 

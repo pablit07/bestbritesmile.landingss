@@ -6402,6 +6402,14 @@ border:1px solid hsl(107, 56%, 46%) !important;
     text-indent: -9999px;
     width: 282px;
 }
+input[type="submit"]{
+    border: 0 none;
+    cursor: pointer;
+    height: 50px;
+    margin-top: 10px;
+    text-indent: -9999px;
+    width: 282px;
+}
 .best-white-landing-page .itemBody img:hover {
     outline: medium none;
 opacity:1;

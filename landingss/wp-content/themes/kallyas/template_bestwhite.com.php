@@ -484,11 +484,7 @@ Practices (GMP), which is the highest standard of testing in the supplement indu
 
 <p>Notice: The products and information found on http://bestbritesmile.com are not intended to replace professional medical advice or treatment.  These statements have not been
 
-evaluated by the Food and Drug Administration. These products are not intended to diagnose,  treat, cure or prevent any disease.  Individual results may vary.</p>
-<p style="font-size: 12px;">
-	Representations regarding the efficacy and safety of Best Brite Smile have not been evaluated by the Food and Drug Administration. The FDA only evaluates foods and drugs, not supplements like these products. These products are not intended to diagnose, prevent, treat, or cure any disease. <a href='https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3124242/'>Click here</a> to find evidence of a test, analysis, research, or study describing the benefits, performance or efficacy of Best Brite Smile based on the expertise of relevant professionals.
-</p>
-</div>
+evaluated by the Food and Drug Administration. These products are not intended to diagnose,  treat, cure or prevent any disease.  Individual results may vary.</p></div>
 
 		</div></div>
 
